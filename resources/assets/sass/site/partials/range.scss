@@ -1,0 +1,32 @@
+p.range {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+input[type=range] + .thumb  {
+	background: color('material-da-indigo', 'lighten-1');
+	top: 5px;
+	.value {
+		color: color('material-da-indigo', 'lighten-3');
+		width: 100px;
+	}
+	&.active {
+		.value{
+			color: color('material-da-orange', 'base');
+			font-size: 15px;
+			font-weight: bold;
+		}
+	}
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	height: 15px;
+	border-radius: 5px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	background-color: color('material-da-indigo', 'base');
+	height: 30px;
+	width: 30px;
+	margin: -10px 0 0 0;
+}

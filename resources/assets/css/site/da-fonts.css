@@ -1,0 +1,274 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/fonts/icomoon.eot?fe3yf');
+  src:  url('/fonts/icomoon.eot?fe3yf#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?fe3yf') format('truetype'),
+    url('/fonts/icomoon.woff?fe3yf') format('woff'),
+    url('/fonts/icomoon.svg?fe3yf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="da_"], [class*=" da_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.da_ico_business:before {
+  content: "\e900";
+  color: #27073a;
+}
+.da_ico_business_line:before {
+  content: "\e901";
+  color: #27073a;
+}
+.da_ico_emailsent:before {
+  content: "\e902";
+  color: #27073a;
+}
+.da_ico_emailsent_line:before {
+  content: "\e903";
+  color: #27073a;
+}
+.da_ico_happyface:before {
+  content: "\e904";
+  color: #27073a;
+}
+.da_ico_happyface_line:before {
+  content: "\e905";
+  color: #27073a;
+}
+.da_ico_productivity_line:before {
+  content: "\e906";
+  color: #27073a;
+}
+.da_ico_shops:before {
+  content: "\e907";
+  color: #27073a;
+}
+.da_ico_shops_line:before {
+  content: "\e908";
+  color: #27073a;
+}
+.da_ico_areas:before {
+  content: "\e909";
+  color: #27073a;
+}
+.da_ico_areas_line:before {
+  content: "\e90a";
+  color: #27073a;
+}
+.da_ico_benefitsregister:before {
+  content: "\e90b";
+  color: #27073a;
+}
+.da_ico_benefitsregister_line:before {
+  content: "\e90c";
+  color: #27073a;
+}
+.da_ico_checkcircle:before {
+  content: "\e90d";
+  color: #27073a;
+}
+.da_ico_checkcircle_line:before {
+  content: "\e910";
+  color: #27073a;
+}
+.da_ico_dashboard:before {
+  content: "\e911";
+  color: #27073a;
+}
+.da_ico_dashboard_line:before {
+  content: "\e912";
+  color: #27073a;
+}
+.da_ico_happy:before {
+  content: "\e913";
+  color: #27073a;
+}
+.da_ico_happy_line:before {
+  content: "\e914";
+  color: #27073a;
+}
+.da_ico_idea:before {
+  content: "\e915";
+  color: #27073a;
+}
+.da_ico_idea_line:before {
+  content: "\e916";
+  color: #27073a;
+}
+.da_ico_loading:before {
+  content: "\e917";
+  color: #27073a;
+}
+.da_ico_loading_line:before {
+  content: "\e918";
+  color: #27073a;
+}
+.da_ico_plantype:before {
+  content: "\e919";
+  color: #27073a;
+}
+.da_ico_plantype_line:before {
+  content: "\e91a";
+  color: #27073a;
+}
+.da_ico_productivity:before {
+  content: "\e91b";
+  color: #27073a;
+}
+.da_ico_puzzle:before {
+  content: "\e91c";
+  color: #27073a;
+}
+.da_ico_puzzle_line:before {
+  content: "\e91d";
+  color: #27073a;
+}
+.da_ico_test:before {
+  content: "\e91e";
+  color: #27073a;
+}
+.da_ico_test_line:before {
+  content: "\e91f";
+  color: #27073a;
+}
+.da_ico_thermo:before {
+  content: "\e920";
+  color: #27073a;
+}
+.da_ico_thermo_line:before {
+  content: "\e921";
+  color: #27073a;
+}
+.da_ico_workers:before {
+  content: "\e922";
+  color: #27073a;
+}
+.da_ico_workers_line:before {
+  content: "\e923";
+  color: #27073a;
+}
+.da_ico_workersregister:before {
+  content: "\e924";
+  color: #27073a;
+}
+.da_ico_workersregister_line:before {
+  content: "\e925";
+  color: #27073a;
+}
+.da_ico_alert:before {
+  content: "\e926";
+  color: #27073a;
+}
+.da_ico_alert_line:before {
+  content: "\e927";
+  color: #27073a;
+}
+.da_ico_benefits:before {
+  content: "\e928";
+  color: #27073a;
+}
+.da_ico_benefits_line:before {
+  content: "\e929";
+  color: #27073a;
+}
+.da_ico_check:before {
+  content: "\e92a";
+  color: #27073a;
+}
+.da_ico_check_line:before {
+  content: "\e92b";
+  color: #27073a;
+}
+.da_ico_education:before {
+  content: "\e92c";
+  color: #27073a;
+}
+.da_ico_education_line:before {
+  content: "\e92d";
+  color: #27073a;
+}
+.da_ico_error:before {
+  content: "\e92e";
+  color: #27073a;
+}
+.da_ico_error_line:before {
+  content: "\e92f";
+  color: #27073a;
+}
+.da_ico_first:before {
+  content: "\e930";
+  color: #27073a;
+}
+.da_ico_first_line:before {
+  content: "\e931";
+  color: #27073a;
+}
+.da_ico_health:before {
+  content: "\e932";
+  color: #27073a;
+}
+.da_ico_health_line:before {
+  content: "\e933";
+  color: #27073a;
+}
+.da_ico_measuring:before {
+  content: "\e934";
+  color: #27073a;
+}
+.da_ico_measuring_line:before {
+  content: "\e935";
+  color: #27073a;
+}
+.da_ico_photo:before {
+  content: "\e936";
+  color: #27073a;
+}
+.da_ico_photo_line:before {
+  content: "\e937";
+  color: #27073a;
+}
+.da_ico_recognition:before {
+  content: "\e938";
+  color: #27073a;
+}
+.da_ico_recognition_line:before {
+  content: "\e939";
+  color: #27073a;
+}
+.da_ico_travel:before {
+  content: "\e93a";
+  color: #27073a;
+}
+.da_ico_travel_line:before {
+  content: "\e93b";
+  color: #27073a;
+}
+.da_ico_user:before {
+  content: "\e93c";
+  color: #27073a;
+}
+.da_ico_user_line:before {
+  content: "\e93d";
+  color: #27073a;
+}
+.da_logo_da:before {
+  content: "\e93e";
+  color: #27073a;
+}
+.da_logo_da_line:before {
+  content: "\e93f";
+  color: #27073a;
+}

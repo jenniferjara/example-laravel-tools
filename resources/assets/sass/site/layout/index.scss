@@ -1,0 +1,230 @@
+#reconocimiento, #beneficio, #nosotros, #medicion {
+	margin-top: 50px;
+}
+.height-wrapper {
+	height: auto;
+}
+/************/
+.wrapper-general {
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+}
+.wrapper-general-text {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: color('material-da-ingigo', 'base');
+}
+
+.layout-text {
+	font-size: 14px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.layout-box {
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	margin-top: 1rem;
+}
+
+.layout-btn-box {
+	margin-top: 2rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+/** Reconocimiento **/
+.options {
+	margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.circle-option {
+	border-radius: 50%;
+	border: 2px solid color('shades', 'white');
+	width: 40px;
+	height: 40px;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+    color: color('shades', 'white');
+}
+
+/** Beneficios **/
+#beneficio {
+	margin-top: 50px;
+}
+.bg-layout-wrap {
+	width: 100%;
+}
+
+.slider-wrapper {
+	display: block;
+}
+
+.slider-option{
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin: auto;
+	width: 290px;
+
+	.bx-wrapper{
+		margin-bottom: 0px;
+		.bx-next {
+			right: 0px;
+		}
+		.bx-prev {
+			left: 0px;
+		}
+	}
+	.slider-img-wrap {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 150px;
+
+		.slider-img {
+			width: 90px;
+			height: 90px;
+			border-radius: 50%;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+	}	
+}
+
+/** medicion **/ 
+#medicion {
+	margin-top: 50px;
+}
+
+/** Nosotros **/
+
+.about-wrapper {
+	padding-bottom: 3rem;
+	padding-top: 3rem;
+	text-align: center;
+}
+
+.about-frase {
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 130%;
+	padding-left: 5px;
+	padding-right: 5px
+}
+.about-perfil {
+	padding-top: 1rem;
+
+	.about-perfil-pic {
+		width: 110px;
+		height: 110px;
+		border-radius: 50%;
+		margin: 0 auto;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.about-perfil-bg1 {
+		background-image: url('/assets/site/img/founders/img_fundador1.jpg');
+	}
+	.about-perfil-bg2 {
+		background-image: url('/assets/site/img/founders/img_fundador2.jpg');
+	}
+	.about-perfil-text {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		color: color('material-da-indigo', 'base');
+		p:first-of-type{
+			font-weight: bold;
+		}
+	}
+}
+
+.contact-email {
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.bg-beneficio-options {
+	background-image: url('/assets/site/img/responsive/img_categorias_responsive.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: color('shades', 'white');
+}
+
+@media (min-width: 992px){
+	#reconocimiento, #beneficio, #nosotros, #medicion {
+		margin-top: 70px;
+	}
+	.layout-text {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.bg-beneficio, 
+	.bg-medicion, 
+	.bg-reconocimiento, 
+	.bg-nosotros,
+	.bg-trabaja {
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.bg-beneficio {
+		background-image: url('/assets/site/img/img_beneficios.jpg');
+	}
+	.bg-beneficio-options {
+		background-image: url('/assets/site/img/img_categorias.jpg');
+	}
+	.bg-medicion {
+		background-image: url('/assets/site/img/img_medicion.jpg');
+	}
+	.bg-nosotros {
+		background-image: url('/assets/site/img/img_nosotros.jpg');
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	.bg-reconocimiento {
+		background-image: url('/assets/site/img/img_reconocimientos.jpg');
+	}
+	.bg-trabaja {
+		background-image: url('/assets/site/img/img_trabaja.jpg');
+		background-position: 70% 100%;
+	}
+	.bg-layout-wrap {
+		width: 50%;
+		height: 550px;
+	}
+	.height-wrapper {
+		height: 500px;
+	}
+	.about-wrapper {
+		padding-top: 5rem;
+		text-align: left;
+	}
+	.slider-wrapper {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.slider-option {
+		width: 270px; 
+		margin-right: 30px; 
+		margin-left: 30px;
+	}
+
+}

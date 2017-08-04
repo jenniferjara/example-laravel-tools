@@ -1,0 +1,32 @@
+.modal.top-sheet {
+  top: 50px !important;
+  bottom: auto !important;
+  transition: transform cubic-bezier(0.22, 0.61, 0.36, 1) .2s;
+  will-change: transform;
+  transform: translate(0, -100%) scale(1) !important;
+  width: 100%;
+  opacity: 1 !important;
+}
+
+.modal.top-sheet.open {
+  transition: transform cubic-bezier(0.22, 0.61, 0.36, 1) .35s .25s;
+}
+
+.modal.top-sheet.open:not([style*="display: none"]):not([style*="opacity: 0;"]) {
+  transform: translate(0, 0%) !important;
+}
+.modal.top-sheet {
+	.modal-footer{
+		padding-left: 24px;
+		padding-right: 24px;
+	}	
+}
+
+
+@media (min-width: 992px) {
+	.modal.top-sheet {
+		.modal-content {
+			padding-top: 50px;
+		}
+	}
+}

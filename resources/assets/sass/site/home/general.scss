@@ -1,0 +1,379 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: color('shades', 'white');
+	color: color('material-da-indigo', 'base');
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+
+	font-size: 14px;
+    line-height: 18px;
+}
+a {
+	color: color('material-da-indigo', 'base');
+	text-decoration: none;
+}
+.row {margin-bottom: 0px;}
+
+.title-home {
+	font-family: 'acherus_grotesqueregular';
+	font-size: 30px;
+    line-height: 34px;
+	margin-bottom: 40px;
+}
+.titles {
+	font-family: 'acherus_grotesqueregular';
+    font-size: 24px;
+    line-height: 28px;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.subtitles {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.text-orange {
+    color: color('material-da-orange', 'base');
+}
+.text-purple {
+    color: color('material-da-indigo', 'base');
+}
+
+.img-common {
+	width: 100%;
+}
+.center-left{
+	text-align: left;
+}
+.left-center {
+	text-align: center;
+}
+
+.display-flex-center {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.background {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/***********************************/
+
+#home {
+	height: 100vh;
+	@extend .background;
+	background-image: url('/assets/site/img/responsive/img_principal_responsive.jpg');
+	background-attachment: fixed;
+	p:first-child {
+		color: color('shades', 'white');
+	}
+	.home-wrap-btn {
+		display: block;
+		a:first-child {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+#cotiza {
+	height: auto;
+	.cotiza-wrapper {
+		width: 100%;
+		height: 100vh;
+		background: color('shades', 'white');
+		input#employeehome {
+			margin-bottom: 10px;
+		}
+		.btn-da-box {
+			#cotiza-home-btn{
+				margin-top: 30px;
+			}
+		}
+	}
+}
+
+#productos, #estudios {
+	p {
+		color: color('material-da-indigo', 'base');
+	}
+}
+
+#productos, #estudios {
+	background: color('shades', 'material-da-gray')
+}
+#productos, #options, .cotiza-wrapper, #estudios {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+#options {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('/assets/site/img/responsive/img_elegir-responsive.jpg');
+	background-attachment: fixed;
+	color: color('shades', 'white');
+}
+
+.home-wrapper {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/*** products ***/
+
+.product-wrap {
+	height: 70px;
+	width: 260px;
+    margin: 0 auto;
+}
+
+.seemore {
+    font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	color: color('material-da-orange', 'base');
+	display: block;
+	&:hover {
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-bottom-color: color('material-da-orange', 'base');
+		display: inline-block;	
+	}
+
+}
+
+.docs-wrapper {
+	background: color('shades', 'white');
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top: 2.5rem;
+}
+
+.docs-wrapper-inner {
+	padding: 0px 20px 20px;
+	p:nth-child(2){
+		margin-bottom: 15px;
+	}
+}
+
+.doc-btn-base {
+	display: block;
+	width: 250px;
+	border-radius: 7px;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid color('material-da-indigo', 'base');
+	font-size: 16px;
+	padding-top: 12px;
+	padding-bottom: 13px;
+}
+.docs-wrapper-btn {
+	@extend .doc-btn-base;
+    @extend .display-flex-center;
+
+    i.left {
+		font-size: 20px;
+    	float: none !important;
+    	color: color('material-da-orange', 'base');
+    	margin-right: 10px;
+    }
+}
+
+/* Cotiza */
+
+.cotizaopt1 {
+	padding-top: 2rem;
+
+	.cotiza-box-300 {
+		border-radius: 5px;
+		border: 1px solid color('material-da-indigo', 'base');
+		padding: 10px 30px;
+		text-align: center;
+		position: relative;
+		width: 300px;
+		margin: 0 auto;
+
+		.number {
+			font-weight: bold;
+			margin-bottom: 10px;
+			margin-top: 30px;
+			margin-left: 30px;
+
+			span:nth-child(1){
+				position: absolute;
+				top: 50px;
+				left: 50%;
+				margin-left: -84px;
+				font-size: 30px;
+			}
+
+			span:nth-child(2) {
+				font-size: 80px;
+			}
+		}
+	}
+
+	.cotiza-300-text-box {
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+	}
+	.title-cotiza {
+		font-family: 'acherus_grotesqueregular';
+		font-size: 24px;
+		line-height: 28px;
+		padding-top: 30px;
+	}
+}
+
+.cotizaopt2 {
+	padding-top: 3rem;
+
+	.cotiza-personal-title {
+		text-align: center;
+	    font-size: 20px;
+	    font-weight: bold;
+	    width: 280px;
+	    margin: 0 auto;
+	    line-height: 130%;
+	}
+
+	form.home-form .input-field input{
+		margin-bottom: 10px;
+	}
+	p:last-child {
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (min-width: 992px){
+	body {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.subtitles {
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 28px;
+	}
+	.titles, .title-cotiza {
+		font-size: 30px;
+		line-height: 34px;
+	}
+	.title-home {
+		font-size: 60px;
+		line-height: 65px;
+	}
+	.seemore {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.docs-wrapper-inner {
+		div:nth-child(1){
+			height: 110px;
+			@extend .display-flex-center;
+		}
+		div:nth-child(2){
+			height: 150px;
+		}
+	}
+	.docs-wrapper-btn{
+		width: 90%;
+	}
+
+	#home {
+		background-image: url('/assets/site/img/img_principal.jpg');
+		.home-wrap-btn {
+			display: -webkit-box;
+			display: flex;
+			display: -ms-flex;
+
+			-webkit-box-align: center;
+			align-items: center;
+			-ms-flex-align: center;
+
+			justify-content: center;
+			-webkit-align-content: stretch;
+			-ms-flex-line-pack: stretch;
+
+			a:first-child, a:last-child {
+				margin-right: 20px;
+				margin-left: 20px;
+				margin-bottom: 0px;
+				margin-top: 0px;
+			}
+		}
+	}
+	#options {
+		background-image: url('/assets/site/img/img_elegir.jpg');
+	}
+	#productos {height: 600px;}
+	
+	#cotiza {
+		@extend .background;
+		background-image: url('/assets/site/img/img_cotiza.jpg');
+		
+		.cotiza-wrapper {
+			width: 50%;
+			height: 600px;
+			.btn-da-wrapper > a {
+				margin-left: 0px;
+			}
+			
+		}
+	}
+	.cotizaopt1, .cotizaopt2 {
+		padding-bottom: 3rem;
+		padding-top: 3rem;
+		height: 100vh;
+	}
+
+	.center-left {
+		text-align: center;
+	}
+	.left-center {
+		text-align: left;
+	}
+	.product-wrap {
+		width: 100%;
+		height: 80px;
+	}
+	#employeehome {
+		width: 270px;
+	}
+}
+
+@media (min-width: 1320px) {
+	.docs-wrapper-inner {
+		div:nth-child(1) {
+			height: 100px;
+		}
+		div:nth-child(2){
+			height: 100px;
+		}
+	}
+}

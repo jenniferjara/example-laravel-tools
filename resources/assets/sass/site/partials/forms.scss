@@ -1,0 +1,132 @@
+#afiliacion, #contacto {
+	margin-top: 50px;
+
+	.layout-body {
+		padding-top: 0rem;
+		.home-form {
+			margin-top: 2rem;
+		}
+		#form-free input,
+		#form-contact input {
+			margin-bottom: 0px;
+		}
+	}
+
+	.terms-box {
+		margin-top: 2rem;
+
+		input[type=checkbox]:checked + label:before {
+			border-right: 2px solid color('material-da-indigo', 'base');
+			border-bottom: 2px solid color('material-da-indigo', 'base');
+		}
+	}
+	.caret {
+		color: color('material-da-indigo', 'base');
+		width: 20px;
+	}
+	select.select-afiliate {
+		background-color: transparent;
+		width: 100%;
+		padding: 0px;
+		border: none;
+		border-radius: 2px;
+		height: 3rem;
+		border-bottom: 1px solid color('material-da-indigo', 'base');
+		&:focus {
+			border: none;
+		}
+	}
+	.input.field select:focus {
+		border: none;
+	}
+}
+.form-common {
+	.input-field input {
+		margin-bottom: 5px;
+		border-bottom: 1px solid color('material-da-indigo', 'base');
+	}
+	.input-field label {
+		font-size: 12px;
+		opacity: 0.6;
+		color: color('material-da-indigo', 'base');
+
+		&:not(.label-icon).active {
+			transform: translateY(-120%);
+		}
+	}
+	.input-field input[type=number]:focus + label,
+	.input-field input[type=text]:focus + label,
+	.input-field input[type=email]:focus + label,
+	textarea.materialize-textarea:focus + label {
+		font-weight: bold;
+		color: color('material-da-indigo', 'base');
+	}
+
+    .input-field input[type=text]:focus,
+    .input-field input[type=text].valid,
+    .input-field input[type=text]:focus.valid,
+    .input-field input[type=number]:focus,
+    .input-field input[type=number].valid,
+    .input-field input[type=number]:focus.valid,
+    .input-field input[type=email]:focus,
+    .input-field input[type=email].valid,
+    .input-field input[type=email]:focus.valid,
+    textarea.materialize-textarea:focus,
+    textarea.materialize-textarea.valid {
+    	border-bottom: 1px solid color('material-da-indigo', 'base');
+    	box-shadow: 0 1px 0 0 color('material-da-indigo', 'base');
+	}
+	textarea.materialize-textarea {
+		padding: 0.4rem 0rem;
+		border-bottom: 1px solid color('material-da-indigo', 'base');
+		margin-bottom: 5px;
+	}
+
+	input.error {
+		border-bottom: 1px solid color('materialize-red', 'base');
+	    box-shadow: 0 1px 0 0 color('materialize-red', 'base');
+	}
+}
+
+.campos-requeridos {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+
+.form-results {
+	height: calc(100vh - 50px);
+    margin-top: 50px;
+}
+.form-results-loader {
+	// height: calc(100vh - 120px);
+	height: 82vh;
+}
+.form-messages-wrap {
+	padding-bottom: 20px;
+}
+
+/** error **/
+.input-field span.error,
+.input-field p.error,
+.select-box span.error, 
+.terms-box ~ span.error,
+#cotiza-home ~ span.error {
+	font-size: 10px;
+    font-weight: 300;
+    color: color('materialize-red', 'base');
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.input-field span.error::before {
+	border-bottom: 1px solid color('materialize-red', 'base');
+}
+@media (min-width: 992px) {
+	#afiliacion, #contacto {
+		margin-top: 70px;
+	}
+	.campos-requeridos {
+		text-align: center;
+	}
+}
